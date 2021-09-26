@@ -17,7 +17,7 @@ let g:colors_name = 'wal'
 
 " set t_Co=16
 hi Normal ctermbg=NONE ctermfg=7
-hi NonText ctermbg=NONE ctermfg=0
+hi NonText ctermbg=NONE ctermfg=8
 hi Comment ctermbg=NONE ctermfg=8
 hi Conceal ctermbg=NONE
 hi Constant ctermbg=NONE ctermfg=3
@@ -47,10 +47,10 @@ hi helpLeadBlank ctermbg=NONE ctermfg=7
 hi helpNormal ctermbg=NONE ctermfg=7
 hi Visual ctermbg=0 ctermfg=15 cterm=reverse term=reverse
 hi VisualNOS ctermbg=NONE ctermfg=1
-hi Pmenu ctermbg=8 ctermfg=7
-hi PmenuSbar ctermbg=6 ctermfg=7
-hi PmenuSel ctermbg=4 ctermfg=0
-hi PmenuThumb ctermbg=8 ctermfg=8
+hi Pmenu ctermfg=15 ctermbg=0
+hi PmenuThumb ctermbg=7
+hi PmenuSBar ctermbg=8
+hi PmenuSel ctermfg=0 ctermbg=4
 hi FoldColumn ctermbg=NONE ctermfg=7
 hi Folded ctermbg=NONE ctermfg=8
 hi WildMenu ctermbg=2 ctermfg=0
